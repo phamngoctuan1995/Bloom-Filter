@@ -21,7 +21,7 @@ class CountingBloomFilter[T] (numElements: Long = 50000000, probFalsePositive: D
     }
 
     private def decreBucket(index: Long): Unit = {
-        val base: Long = index >>> bucketPerLong
+        val base: Long = index >>> bitLog2
         if (base >= numSlices)
             return
         val offset = index & (1 << bitLog2 - 1)
@@ -113,6 +113,8 @@ object Main {
         println(cbl.mightContain(2))
         println(cbl.mightContain(3))
         cbl.add(1)
+        println(cbl.mightContain(1))
+        cbl.remove(1)
         println(cbl.mightContain(1))
     }
 }
