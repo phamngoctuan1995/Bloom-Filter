@@ -1,8 +1,13 @@
+import java.security.MessageDigest
+
+import scala.util.hashing.MurmurHash3
 /**
   * Created by CPU10816-local on 7/28/2017.
   */
 object Hasher {
-     def MurmurHash_x64[T](element: T): Long = {
+    def getHashCode[T](element: T) = CustomHash_x64(element)
+
+    def MurmurHash_x64[T](element: T): Long = {
         val data = element.toString.getBytes
         val length = data.length
         val seed = 0xe17a1465
@@ -45,5 +50,21 @@ object Hasher {
         h = h ^ h >>> r
 
         return h
+    }
+
+    def MurmurHash_x32_native[T](element: T): Long = MurmurHash3.bytesHash(element.toString.getBytes())
+
+    def JavaHash[T](hashType: String)(element: T): Long = {
+        return MessageDigest.getInstance(hashType).digest(element.toString.getBytes).toList.hashCode()
+    }
+
+    def NativeHash_x32[T](element: T) = element.toString.hashCode
+
+    def CustomHash_x64[T](element: T): Long = {
+        val string = element.toString
+        var h = 1125899906842597L // prime
+        for (i <- 0 until string.length)
+            h = 31 * h + string.charAt(i)
+        h
     }
 }

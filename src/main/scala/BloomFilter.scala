@@ -31,7 +31,7 @@ class BloomFilter[T] (numElements: Long = 50000000, probFalsePositive: Double = 
     }
 
     def add(element: T): Unit = {
-        val hash = Hasher.MurmurHash_x64(element)
+        val hash = Hasher.getHashCode(element)
         val hash1 = hash >>> 32
         val hash2 = (hash << 32) >> 32
 
@@ -46,7 +46,7 @@ class BloomFilter[T] (numElements: Long = 50000000, probFalsePositive: Double = 
     }
 
     def mightContain(element: T): Boolean = {
-        val hash = Hasher.MurmurHash_x64(element)
+        val hash = Hasher.getHashCode(element)
         val hash1 = hash >>> 32
         val hash2 = (hash << 32) >> 32
 
@@ -56,5 +56,14 @@ class BloomFilter[T] (numElements: Long = 50000000, probFalsePositive: Double = 
                 return false
         }
         return true
+    }
+}
+
+object Test1 {
+    def main(args: Array[String]): Unit = {
+        val cbl = new BloomFilter[Int](700000000, 0.001)
+        cbl.add(1)
+        println(cbl.mightContain(1))
+        println(cbl.mightContain(2))
     }
 }

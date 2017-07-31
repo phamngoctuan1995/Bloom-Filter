@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$/../BloomFilter/project" />
           </set>
         </option>
+        <option name="sbtVersion" value="0.13.16" />
       </SbtProjectSettings>
     </option>
   </component>

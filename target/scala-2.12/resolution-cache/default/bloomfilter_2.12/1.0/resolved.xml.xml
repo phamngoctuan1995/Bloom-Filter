@@ -4,7 +4,7 @@
 		module="bloomfilter_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20170727171254"
+		publication="20170731105937"
 	>
 		<description>
 		BloomFilter
@@ -34,5 +34,8 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.1" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.1" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scalactic" name="scalactic_2.12" rev="3.0.1" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.1" conf="test->default(compile)"/>
+		<dependency org="mysql" name="mysql-connector-java" rev="5.1.24" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
