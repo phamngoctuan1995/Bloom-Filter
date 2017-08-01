@@ -5,7 +5,7 @@ import scala.util.hashing.MurmurHash3
   * Created by CPU10816-local on 7/28/2017.
   */
 object Hasher {
-    def getHashCode[T](element: T) = CustomHash_x64(element)
+    def getHashCode[T](element: T) = MurmurHash_x64(element)
 
     def MurmurHash_x64[T](element: T): Long = {
         val data = element.toString.getBytes

@@ -1,17 +1,21 @@
 import scala.math._
 
-class CountingBloomFilter[T] (numElements: Long = 50000000, probFalsePositive: Double = 0.001, bucketSize: Int = 8) {
+class CountingBloomFilter[T] (numElements: Long = 50000000, probFalsePositive: Double = 0.001, bucketSize: Int = 8, var hashFunction: (T) => Long = null) {
     private val numBuckets: Long = ceil((numElements * log(probFalsePositive)) / log(1.0 / (pow(2.0, log(2.0)))))
     private val numHashs = round(log(2.0) * numBuckets / numElements)
     private val bitPerBucket: Int = if (bucketSize >= 64) 64 else if (bucketSize <= 0) 1 else pow(2, ceil(log(bucketSize) / log(2))).toInt
     private val bucketPerLong = 64 / bitPerBucket
     private val bitLog2 = (log(bucketPerLong) / log(2)).toInt
     private val numSlices = numBuckets / bucketPerLong + 1
-    private val arrBuckets = Array.fill(numSlices)(0l)
-    private val masks = Array.fill(bucketPerLong)(1l).zipWithIndex.map(mask => ((mask._1 << bitPerBucket) - 1) << (mask._2 * bitPerBucket))
+    private val arrBuckets = Array.fill(numSlices)(0L)
+    private val masks = Array.fill(bucketPerLong)(1L).zipWithIndex.map(mask => ((mask._1 << bitPerBucket) - 1) << (mask._2 * bitPerBucket))
+    if (masks.length == 1 && masks(0) == 0)
+        masks(0) = -1
     private val offsets = Array.fill(bucketPerLong)(0).zipWithIndex.map(offset => offset._2 * bitPerBucket)
     private var mightFalseNegative = false
 
+    if (hashFunction == null)
+        hashFunction = CustomHash_x64
 
     implicit def longToInt(l: Long): Int = {
         return l.toInt
@@ -21,11 +25,19 @@ class CountingBloomFilter[T] (numElements: Long = 50000000, probFalsePositive: D
         return d.toLong
     }
 
+    private def CustomHash_x64[T](element: T): Long = {
+        val string = element.toString
+        var h = 1125899906842597L // prime
+        for (i <- 0 until string.length)
+            h = 31 * h + string.charAt(i)
+        h
+    }
+
     private def decreBucket(index: Long): Unit = {
         val base: Long = index >>> bitLog2
         if (base >= numSlices)
             return
-        val offset = index & ((1 << bitLog2) - 1)
+        val offset = index & ((1L << bitLog2) - 1)
         var value = (arrBuckets(base) & masks(offset)) >>> offsets(offset)
         if (value == 0)
             return
@@ -37,7 +49,7 @@ class CountingBloomFilter[T] (numElements: Long = 50000000, probFalsePositive: D
         val base: Long = index >>> bitLog2
         if (base >= numSlices)
             return
-        val offset = index & ((1 << bitLog2) - 1)
+        val offset = index & ((1L << bitLog2) - 1)
         var value = (arrBuckets(base) & masks(offset)) >>> offsets(offset)
         if (value == masks(0))
         {
@@ -57,7 +69,7 @@ class CountingBloomFilter[T] (numElements: Long = 50000000, probFalsePositive: D
     }
 
     def add(element: T): Unit = {
-        val hash = Hasher.getHashCode(element)
+        val hash = hashFunction(element)
         val hash1 = hash >>> 32
         val hash2 = (hash << 32) >> 32
 
@@ -68,7 +80,7 @@ class CountingBloomFilter[T] (numElements: Long = 50000000, probFalsePositive: D
     }
 
     def remove(element: T): Unit = {
-        val hash = Hasher.getHashCode(element)
+        val hash = hashFunction(element)
         val hash1 = hash >>> 32
         val hash2 = (hash << 32) >> 32
 
@@ -87,7 +99,7 @@ class CountingBloomFilter[T] (numElements: Long = 50000000, probFalsePositive: D
     }
 
     def mightContain(element: T): Int = {
-        val hash = Hasher.getHashCode(element)
+        val hash = hashFunction(element)
         val hash1 = hash >>> 32
         val hash2 = (hash << 32) >> 32
 
@@ -107,7 +119,7 @@ class CountingBloomFilter[T] (numElements: Long = 50000000, probFalsePositive: D
 
 object Main {
     def main(args: Array[String]): Unit = {
-        val cbl = new CountingBloomFilter[Int](10000000, 0.001, 4)
+        val cbl = new CountingBloomFilter[Int](1000, 0.001, 64)
         cbl.add(1)
         println(cbl.mightContain(1))
         cbl.add(2)
