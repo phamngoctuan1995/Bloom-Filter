@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a491647-a32e-4a8c-9f86-541a709117b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/Benchmark$.class" afterPath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/Benchmark$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/BloomFilter$.class" afterPath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/BloomFilter$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/BloomFilter.class" afterPath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/BloomFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/CountingBloomFilter$.class" afterPath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/CountingBloomFilter$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/CountingBloomFilter.class" afterPath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/CountingBloomFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/Hasher$.class" afterPath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/Hasher$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/Main$.class" afterPath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/Main$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/ScalableBloomFilter$.class" afterPath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/ScalableBloomFilter$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/ScalableBloomFilter.class" afterPath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/ScalableBloomFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/Test$.class" afterPath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/Test$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/Test1$.class" afterPath="$PROJECT_DIR$/../BloomFilter/target/scala-2.12/classes/Test1$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BloomFilter/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../BloomFilter/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BloomFilter/src/main/scala/Benchmark.scala" afterPath="$PROJECT_DIR$/../BloomFilter/src/main/scala/Benchmark.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BloomFilter/src/main/scala/BloomFilter.scala" afterPath="$PROJECT_DIR$/../BloomFilter/src/main/scala/BloomFilter.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BloomFilter/src/main/scala/CountingBloomFilter.scala" afterPath="$PROJECT_DIR$/../BloomFilter/src/main/scala/CountingBloomFilter.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BloomFilter/src/main/scala/Hasher.scala" afterPath="$PROJECT_DIR$/../BloomFilter/src/main/scala/Hasher.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BloomFilter/src/main/scala/ScalableBloomFilter.scala" afterPath="$PROJECT_DIR$/../BloomFilter/src/main/scala/ScalableBloomFilter.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/../BloomFilter/out/" />
     <ignored path="$PROJECT_DIR$/../BloomFilter/target/" />
@@ -52,20 +38,27 @@
       <file leaf-file-name="BloomFilter.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/BloomFilter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+            <state relative-caret-position="595">
+              <caret line="78" column="35" lean-forward="true" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
               <folding>
-                <element signature="e#653#884#0" expanded="false" />
+                <element signature="e#0#16#0" expanded="true" />
+                <element signature="e#516#647#0" expanded="false" />
+                <marker date="1501734781416" expanded="false" signature="860:1041" ph="{...}" />
+                <marker date="1501734781416" expanded="false" signature="1087:1252" ph="{...}" />
+                <marker date="1501734781416" expanded="false" signature="1301:1485" ph="{...}" />
+                <marker date="1501734781416" expanded="false" signature="1519:1795" ph="{...}" />
+                <marker date="1501734781416" expanded="false" signature="1836:1893" ph="{...}" />
+                <marker date="1501734781416" expanded="false" signature="1939:2270" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountingBloomFilter.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CountingBloomFilter.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/CountingBloomFilter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="35" column="50" lean-forward="true" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+            <state relative-caret-position="-389">
+              <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
               <folding>
                 <element signature="e#1157#1226#0" expanded="false" />
                 <element signature="e#1232#1308#0" expanded="false" />
@@ -73,6 +66,7 @@
                 <element signature="e#2482#2760#0" expanded="false" />
                 <element signature="e#3403#3495#0" expanded="false" />
                 <element signature="e#3501#3599#0" expanded="false" />
+                <element signature="e#3605#4120#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -82,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/ScalableBloomFilter.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="e#510#741#0" expanded="false" />
               </folding>
@@ -90,18 +84,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Benchmark.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Benchmark.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/Benchmark.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="67" column="71" lean-forward="false" selection-start-line="67" selection-start-column="71" selection-end-line="67" selection-end-column="71" />
+            <state relative-caret-position="1147">
+              <caret line="166" column="5" lean-forward="true" selection-start-line="166" selection-start-column="5" selection-end-line="166" selection-end-column="5" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#53#78#0" expanded="true" />
                 <element signature="e#192#994#0" expanded="false" />
-                <element signature="e#1042#1071#0" expanded="true" />
-                <element signature="e#3027#4292#0" expanded="false" />
-                <element signature="e#4298#5374#0" expanded="false" />
+                <element signature="e#1942#3021#0" expanded="false" />
+                <element signature="e#4189#5265#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -110,10 +101,9 @@
       <file leaf-file-name="Hasher.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/Hasher.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="306">
               <caret line="65" column="40" lean-forward="false" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
                 <element signature="e#209#1719#0" expanded="false" />
                 <element signature="e#1830#1994#0" expanded="false" />
               </folding>
@@ -124,7 +114,7 @@
       <file leaf-file-name="MurmurHash3.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/MurmurHash3.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-731">
+            <state relative-caret-position="289">
               <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding />
             </state>
@@ -147,7 +137,11 @@
       <find>hasher</find>
       <find>1</find>
       <find>l</find>
+      <find>numHashs</find>
     </findStrings>
+    <replaceStrings>
+      <replace>numHashes</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../BloomFilter" />
@@ -196,6 +190,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -246,9 +243,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -672,13 +666,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28012684" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28012684" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14583333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -705,18 +699,6 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/../BloomFilter/src/main/scala/Benchmark.scala</url>
-          <line>127</line>
-          <properties />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/../BloomFilter/src/main/scala/BloomFilter.scala</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="44" />
     </breakpoint-manager>
@@ -727,12 +709,76 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/ScalableBloomFilter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#510#741#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/Benchmark.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="71" lean-forward="false" selection-start-line="67" selection-start-column="71" selection-end-line="67" selection-end-column="71" />
+          <folding>
+            <element signature="e#192#994#0" expanded="false" />
+            <element signature="e#1942#3021#0" expanded="false" />
+            <element signature="e#4189#5265#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/Hasher.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="40" lean-forward="false" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+          <folding>
+            <element signature="e#209#1719#0" expanded="false" />
+            <element signature="e#1830#1994#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/MurmurHash3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/CountingBloomFilter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="50" lean-forward="true" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+          <folding>
+            <element signature="e#1157#1226#0" expanded="false" />
+            <element signature="e#1232#1308#0" expanded="false" />
+            <element signature="e#1314#1545#0" expanded="false" />
+            <element signature="e#2482#2760#0" expanded="false" />
+            <element signature="e#3403#3495#0" expanded="false" />
+            <element signature="e#3501#3599#0" expanded="false" />
+            <element signature="e#3605#4120#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/BloomFilter.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
           <folding>
-            <element signature="e#653#884#0" expanded="false" />
+            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#516#647#0" expanded="false" />
+            <marker date="1501734781416" expanded="false" signature="860:1041" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1087:1252" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1301:1485" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1519:1795" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1836:1893" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1939:2270" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -748,6 +794,7 @@
             <element signature="e#2482#2760#0" expanded="false" />
             <element signature="e#3403#3495#0" expanded="false" />
             <element signature="e#3501#3599#0" expanded="false" />
+            <element signature="e#3605#4120#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -757,7 +804,6 @@
         <state relative-caret-position="323">
           <caret line="64" column="29" lean-forward="false" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
             <element signature="e#209#1719#0" expanded="false" />
             <element signature="e#1830#1994#0" expanded="false" />
           </folding>
@@ -777,12 +823,9 @@
         <state relative-caret-position="255">
           <caret line="17" column="72" lean-forward="true" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#53#78#0" expanded="true" />
             <element signature="e#192#994#0" expanded="false" />
-            <element signature="e#1042#1071#0" expanded="true" />
-            <element signature="e#3027#4292#0" expanded="false" />
-            <element signature="e#4298#5374#0" expanded="false" />
+            <element signature="e#1942#3021#0" expanded="false" />
+            <element signature="e#4189#5265#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -792,7 +835,14 @@
         <state relative-caret-position="1088">
           <caret line="64" column="18" lean-forward="false" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
           <folding>
-            <element signature="e#653#884#0" expanded="false" />
+            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#516#647#0" expanded="false" />
+            <marker date="1501734781416" expanded="false" signature="860:1041" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1087:1252" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1301:1485" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1519:1795" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1836:1893" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1939:2270" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -815,6 +865,7 @@
             <element signature="e#2482#2760#0" expanded="false" />
             <element signature="e#3403#3495#0" expanded="false" />
             <element signature="e#3501#3599#0" expanded="false" />
+            <element signature="e#3605#4120#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -823,7 +874,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="60" lean-forward="false" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
-          <folding />
+          <folding>
+            <element signature="e#510#741#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -831,7 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,7 +892,6 @@
         <state relative-caret-position="255">
           <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
             <element signature="e#209#1719#0" expanded="false" />
             <element signature="e#1830#1994#0" expanded="false" />
           </folding>
@@ -852,12 +903,9 @@
         <state relative-caret-position="357">
           <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#53#78#0" expanded="true" />
             <element signature="e#192#994#0" expanded="false" />
-            <element signature="e#1042#1071#0" expanded="true" />
-            <element signature="e#3027#4292#0" expanded="false" />
-            <element signature="e#4298#5374#0" expanded="false" />
+            <element signature="e#1942#3021#0" expanded="false" />
+            <element signature="e#4189#5265#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -867,7 +915,14 @@
         <state relative-caret-position="1003">
           <caret line="59" column="1" lean-forward="false" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
           <folding>
-            <element signature="e#653#884#0" expanded="false" />
+            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#516#647#0" expanded="false" />
+            <marker date="1501734781416" expanded="false" signature="860:1041" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1087:1252" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1301:1485" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1519:1795" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1836:1893" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1939:2270" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -883,6 +938,7 @@
             <element signature="e#2482#2760#0" expanded="false" />
             <element signature="e#3403#3495#0" expanded="false" />
             <element signature="e#3501#3599#0" expanded="false" />
+            <element signature="e#3605#4120#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -891,7 +947,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="e#510#741#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -900,7 +958,6 @@
         <state relative-caret-position="255">
           <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
             <element signature="e#209#1719#0" expanded="false" />
             <element signature="e#1830#1994#0" expanded="false" />
           </folding>
@@ -919,7 +976,14 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#653#884#0" expanded="false" />
+            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#516#647#0" expanded="false" />
+            <marker date="1501734781416" expanded="false" signature="860:1041" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1087:1252" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1301:1485" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1519:1795" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1836:1893" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1939:2270" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -935,6 +999,7 @@
             <element signature="e#2482#2760#0" expanded="false" />
             <element signature="e#3403#3495#0" expanded="false" />
             <element signature="e#3501#3599#0" expanded="false" />
+            <element signature="e#3605#4120#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -943,7 +1008,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="e#510#741#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -952,7 +1019,6 @@
         <state relative-caret-position="255">
           <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
             <element signature="e#209#1719#0" expanded="false" />
             <element signature="e#1830#1994#0" expanded="false" />
           </folding>
@@ -964,7 +1030,14 @@
         <state relative-caret-position="1071">
           <caret line="63" column="40" lean-forward="false" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
           <folding>
-            <element signature="e#653#884#0" expanded="false" />
+            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#516#647#0" expanded="false" />
+            <marker date="1501734781416" expanded="false" signature="860:1041" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1087:1252" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1301:1485" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1519:1795" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1836:1893" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1939:2270" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -980,6 +1053,7 @@
             <element signature="e#2482#2760#0" expanded="false" />
             <element signature="e#3403#3495#0" expanded="false" />
             <element signature="e#3501#3599#0" expanded="false" />
+            <element signature="e#3605#4120#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -988,7 +1062,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="e#510#741#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -997,7 +1073,6 @@
         <state relative-caret-position="255">
           <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
             <element signature="e#209#1719#0" expanded="false" />
             <element signature="e#1830#1994#0" expanded="false" />
           </folding>
@@ -1016,7 +1091,14 @@
         <state relative-caret-position="952">
           <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
           <folding>
-            <element signature="e#653#884#0" expanded="false" />
+            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#516#647#0" expanded="false" />
+            <marker date="1501734781416" expanded="false" signature="860:1041" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1087:1252" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1301:1485" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1519:1795" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1836:1893" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1939:2270" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1032,6 +1114,7 @@
             <element signature="e#2482#2760#0" expanded="false" />
             <element signature="e#3403#3495#0" expanded="false" />
             <element signature="e#3501#3599#0" expanded="false" />
+            <element signature="e#3605#4120#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1041,7 +1124,6 @@
         <state relative-caret-position="289">
           <caret line="17" column="45" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
             <element signature="e#209#1719#0" expanded="false" />
             <element signature="e#1830#1994#0" expanded="false" />
           </folding>
@@ -1052,7 +1134,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="e#510#741#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1061,7 +1145,14 @@
         <state relative-caret-position="357">
           <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding>
-            <element signature="e#653#884#0" expanded="false" />
+            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#516#647#0" expanded="false" />
+            <marker date="1501734781416" expanded="false" signature="860:1041" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1087:1252" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1301:1485" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1519:1795" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1836:1893" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1939:2270" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1077,6 +1168,7 @@
             <element signature="e#2482#2760#0" expanded="false" />
             <element signature="e#3403#3495#0" expanded="false" />
             <element signature="e#3501#3599#0" expanded="false" />
+            <element signature="e#3605#4120#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1086,7 +1178,6 @@
         <state relative-caret-position="289">
           <caret line="17" column="45" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
             <element signature="e#209#1719#0" expanded="false" />
             <element signature="e#1830#1994#0" expanded="false" />
           </folding>
@@ -1097,7 +1188,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#510#741#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,25 +1207,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/MurmurHash3.java" />
     <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/MurmurHash3.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-731">
+        <state relative-caret-position="289">
           <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/ScalableBloomFilter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#510#741#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BloomFilter/store.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/CountingBloomFilter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-389">
+          <caret line="35" column="50" lean-forward="false" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+          <folding>
+            <element signature="e#1157#1226#0" expanded="false" />
+            <element signature="e#1232#1308#0" expanded="false" />
+            <element signature="e#1314#1545#0" expanded="false" />
+            <element signature="e#2482#2760#0" expanded="false" />
+            <element signature="e#3403#3495#0" expanded="false" />
+            <element signature="e#3501#3599#0" expanded="false" />
+            <element signature="e#3605#4120#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/BloomFilter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="78" column="35" lean-forward="true" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#516#647#0" expanded="false" />
+            <marker date="1501734781416" expanded="false" signature="860:1041" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1087:1252" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1301:1485" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1519:1795" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1836:1893" ph="{...}" />
+            <marker date="1501734781416" expanded="false" signature="1939:2270" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/Hasher.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="306">
           <caret line="65" column="40" lean-forward="false" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
             <element signature="e#209#1719#0" expanded="false" />
             <element signature="e#1830#1994#0" expanded="false" />
           </folding>
@@ -1141,50 +1283,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/Benchmark.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="67" column="71" lean-forward="false" selection-start-line="67" selection-start-column="71" selection-end-line="67" selection-end-column="71" />
+        <state relative-caret-position="1147">
+          <caret line="166" column="5" lean-forward="true" selection-start-line="166" selection-start-column="5" selection-end-line="166" selection-end-column="5" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#53#78#0" expanded="true" />
             <element signature="e#192#994#0" expanded="false" />
-            <element signature="e#1042#1071#0" expanded="true" />
-            <element signature="e#3027#4292#0" expanded="false" />
-            <element signature="e#4298#5374#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/ScalableBloomFilter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="e#510#741#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/BloomFilter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-          <folding>
-            <element signature="e#653#884#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BloomFilter/src/main/scala/CountingBloomFilter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="35" column="50" lean-forward="true" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
-          <folding>
-            <element signature="e#1157#1226#0" expanded="false" />
-            <element signature="e#1232#1308#0" expanded="false" />
-            <element signature="e#1314#1545#0" expanded="false" />
-            <element signature="e#2482#2760#0" expanded="false" />
-            <element signature="e#3403#3495#0" expanded="false" />
-            <element signature="e#3501#3599#0" expanded="false" />
+            <element signature="e#1942#3021#0" expanded="false" />
+            <element signature="e#4189#5265#0" expanded="false" />
           </folding>
         </state>
       </provider>
